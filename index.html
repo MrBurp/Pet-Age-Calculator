@@ -10,58 +10,59 @@
 
 <body>
 
-  <d <!--Dog-->
+  <!--Dog-->
 
-    <div class='dog-age-calculator'>
-      <form class='calculator'>
-        <p> My dog is:
-          <input type="text" id="years" placeholder="years old" />
-          <input type="button" value="Calc" onclick="calculateDogAge()" />
-        </p>
-      </form>
-
-      <p id='text'> My dog is: <span id="Calc"> </span>
+  <div class='dog-age-calculator'>
+    <form class='calculator'>
+      <p> My dog is:
+        <input type="text" id="yearsDog" placeholder="years old" />
+        <input type="button" value="Calc" onclick="calculateDogAge()" />
       </p>
-    </div>
-    <!--Cat-->
+    </form>
 
-    <div class='cat-age-calculator'>
-      <form class='calculator'>
-        <p> My cat is:
-          <input type="text" id="years" placeholder="years old" />
-          <input type="button" value="Calc" onclick="calculateCatAge()" />
-        </p>
-      </form>
+    <p id='text'> My dog is: <span id="dog-result"> </span>
+    </p>
+  </div>
+  <!--Cat-->
 
-      <p id='text'> My cat is: <span id="Calc"> </span>
+  <div class='cat-age-calculator'>
+    <form class='calculator'>
+      <p> My cat is:
+        <input type="text" id="yearsCat" placeholder="years old" />
+        <input type="button" value="Calc" onclick="calculateCatAge()" />
       </p>
-    </div>
-    <!--Chinchilla-->
-    <div class='chinchilla-age-calculator'>
-      <form class='calculator'>
-        <p> My chinchilla is:
-          <input type="text" id="years" placeholder="years old" />
-          <input type="button" value="Calc" onclick="calculateChinchillaAge()" />
-        </p>
-      </form>
+    </form>
 
-      <p id='text'> My chinchilla is: <span id="Calc"> </span>
+    <p id='text'> My cat is: <span id="cat-result"> </span>
+    </p>
+  </div>
+  <!--Chinchilla-->
+  <div class='chinchilla-age-calculator'>
+    <form class='calculator'>
+      <p> My chinchilla is:
+        <input type="text" id="yearsChi" placeholder="years old" />
+        <input type="button" value="Calc" onclick="calculateChinchillaAge()" />
       </p>
-    </div>
-    <!--Parrot-->
-    <div class='parrot-age-calculator'>
-      <form class='calculator'>
-        <p> My chinchilla is:
-          <input type="text" id="years" placeholder="years old" />
-          <input type="button" value="Calc" onclick="calculateParrotAge()" />
-        </p>
-      </form>
+    </form>
 
-      <p id='text'> My parrot is: <span id="Calc"> </span>
+    <p id='text'> My chinchilla is: <span id="Chi-result"> </span>
+    </p>
+  </div>
+  <!--Parrot-->
+  <div class='parrot-age-calculator'>
+    <form class='calculator'>
+      <p> My chinchilla is:
+        <input type="text" id="yearsPar" placeholder="years old" />
+        <input type="button" value="Calc" onclick="calculateParrotAge()" />
       </p>
-    </div>
+    </form>
 
-    <script src="assets/js/main.js"></script>
+    <p id='text'> My parrot is: <span id="Parrot-result"> </span>
+    </p>
+  </div>
+
+
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

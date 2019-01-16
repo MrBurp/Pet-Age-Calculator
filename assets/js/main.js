@@ -22,34 +22,35 @@ Check https://github.com/FBW-12/fortune-js
 HTML/CSS/JS with animal images from (https://unsplash.com/)
 
 */
+
 function calculateDogAge() {
-  var myAge = document.getElementById('years').value;
+  var myAge = document.getElementById('yearsDog').value;
   var dogAge = myAge * 7;
 
-  document.getElementById('Calc').innerHTML = dogAge + ' years old in human years.';
+  document.getElementById('dog-result').innerHTML = dogAge + ' years old in human years.';
 
 }
 
 function calculateCatAge() {
-  var myAge = document.getElementById('years').value;
+  var myAge = document.getElementById('yearsCat').value;
   var catAge = myAge * 7;
 
-  document.getElementById('Calc').innerHTML = catAge + ' years old in human years.';
+  document.getElementById('cat-result').innerHTML = catAge + ' years old in human years.';
 
 }
 
 function calculateChinchillaAge() {
-  var myAge = document.getElementById('years').value;
+  var myAge = document.getElementById('yearsChi').value;
   var chinchillaAge = myAge * 25;
 
-  document.getElementById('Calc').innerHTML = chinchillaAge + ' years old in human years.';
+  document.getElementById('Chi-result').innerHTML = chinchillaAge + ' years old in human years.';
 
 }
 
 function calculateParrotAge() {
-  var myAge = document.getElementById('years').value;
+  var myAge = document.getElementById('yearsPar').value;
   var ParrotAge = myAge * 4;
 
-  document.getElementById('Calc').innerHTML = ParrotAge + ' years old in human years.';
+  document.getElementById('Parrot-result').innerHTML = ParrotAge + ' years old in human years.';
 
 }

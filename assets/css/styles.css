@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  color: hotpink;
+  margin: 170px;
+  background: darkgray;
+}
+section {
+  /* width: 50%;
+  height: 50%; */
+  align-items: center;
+  background-color: steelblue;
+  border: 5px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

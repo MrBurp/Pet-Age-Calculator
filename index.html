@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Animal Age Calculator</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Animal Age Calculator</title>
-</head>
+  <body>
+    <section>
+      <!--Dog-->
 
-<body>
+      <div class="dog-age-calculator">
+        <form class="calculator">
+          <p>
+            My dog is:
+            <input type="text" id="yearsDog" placeholder="years old" />
+            <input type="button" value="Calc" onclick="calculateDogAge()" />
+          </p>
+        </form>
 
-  <!--Dog-->
+        <p id="text">My dog is: <span id="dog-result"> </span></p>
+      </div>
+      <!--Cat-->
 
-  <div class='dog-age-calculator'>
-    <form class='calculator'>
-      <p> My dog is:
-        <input type="text" id="yearsDog" placeholder="years old" />
-        <input type="button" value="Calc" onclick="calculateDogAge()" />
-      </p>
-    </form>
+      <div class="cat-age-calculator">
+        <form class="calculator">
+          <p>
+            My cat is:
+            <input type="text" id="yearsCat" placeholder="years old" />
+            <input type="button" value="Calc" onclick="calculateCatAge()" />
+          </p>
+        </form>
 
-    <p id='text'> My dog is: <span id="dog-result"> </span>
-    </p>
-  </div>
-  <!--Cat-->
+        <p id="text">My cat is: <span id="cat-result"> </span></p>
+      </div>
+      <!--Chinchilla-->
+      <div class="chinchilla-age-calculator">
+        <form class="calculator">
+          <p>
+            My chinchilla is:
+            <input type="text" id="yearsChi" placeholder="years old" />
+            <input
+              type="button"
+              value="Calc"
+              onclick="calculateChinchillaAge()"
+            />
+          </p>
+        </form>
 
-  <div class='cat-age-calculator'>
-    <form class='calculator'>
-      <p> My cat is:
-        <input type="text" id="yearsCat" placeholder="years old" />
-        <input type="button" value="Calc" onclick="calculateCatAge()" />
-      </p>
-    </form>
+        <p id="text">My chinchilla is: <span id="Chi-result"> </span></p>
+      </div>
+      <!--Parrot-->
+      <div class="parrot-age-calculator">
+        <form class="calculator">
+          <p>
+            My Parrot is:
+            <input type="text" id="yearsPar" placeholder="years old" />
+            <input type="button" value="Calc" onclick="calculateParrotAge()" />
+          </p>
+        </form>
 
-    <p id='text'> My cat is: <span id="cat-result"> </span>
-    </p>
-  </div>
-  <!--Chinchilla-->
-  <div class='chinchilla-age-calculator'>
-    <form class='calculator'>
-      <p> My chinchilla is:
-        <input type="text" id="yearsChi" placeholder="years old" />
-        <input type="button" value="Calc" onclick="calculateChinchillaAge()" />
-      </p>
-    </form>
-
-    <p id='text'> My chinchilla is: <span id="Chi-result"> </span>
-    </p>
-  </div>
-  <!--Parrot-->
-  <div class='parrot-age-calculator'>
-    <form class='calculator'>
-      <p> My chinchilla is:
-        <input type="text" id="yearsPar" placeholder="years old" />
-        <input type="button" value="Calc" onclick="calculateParrotAge()" />
-      </p>
-    </form>
-
-    <p id='text'> My parrot is: <span id="Parrot-result"> </span>
-    </p>
-  </div>
-
-
-  <script src="assets/js/main.js"></script>
-</body>
-
+        <p id="text">My parrot is: <span id="Parrot-result"> </span></p>
+      </div>
+      <script src="assets/js/main.js"></script>
+    </section>
+  </body>
 </html>
